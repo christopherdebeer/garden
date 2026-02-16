@@ -18,7 +18,7 @@ That’s the entire game. One button. One resource. One verb.
 
 You light the fire. The room warms. A stranger stumbles in. She can build things, she says — but she needs wood. A new tab appears: the forest. You didn’t ask for it. You didn’t configure it. The interface *grew* because you did something, and the system decided you were ready for more.
 
-[If you haven’t played A Dark Room, play it before reading this. Not because I’ll spoil it — I will — but because the experience of the interface expanding under your hands is the thesis of this essay, and describing it is not the same as feeling it.]
+[If you haven’t played [[A Dark Room]], play it before reading this. Not because I’ll spoil it — I will — but because the experience of the interface expanding under your hands is the thesis of this essay, and describing it is not the same as feeling it.]
 
 -----
 
@@ -53,7 +53,7 @@ This is the thing. The player doesn’t know the graph exists. They don’t know
 
 ## 3.
 
-I’ve been building a game testing framework called Playtest. AI agents play board games against each other via CLI commands, with a TypeScript engine managing state, turn order, and rules validation. A gamemaster agent adjudicates disputes. Player agents wait for their turn, read the game state, and submit actions.
+I’ve been building a game testing framework called [[Playtest]]. AI agents play board games against each other via CLI commands, with a TypeScript engine managing state, turn order, and rules validation. A gamemaster agent adjudicates disputes. Player agents wait for their turn, read the game state, and submit actions.
 
 The architecture is simple: the engine owns a JSON file, agents interact through `./playtest act`, `./playtest wait`, `./playtest status`. File locks handle concurrency. The CLI is the contract — any process that can shell out is a valid participant. An LLM agent and a bash script are mechanically identical.
 
@@ -76,7 +76,7 @@ And the engine itself doesn’t care who calls it. Any process with filesystem a
 
 ## 4.
 
-Separately — or so I thought at the time — I’ve been building Contextual.
+Separately — or so I thought at the time — I’ve been building [[Contextual]].
 
 [ctxl. Formerly prompt studio. The name keeps changing but the idea hasn’t moved since I wrote it down in April 2024: a tool for making tools that do stuff, without requiring the user to learn to program in the traditional sense.]
 
