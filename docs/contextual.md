@@ -16,7 +16,7 @@ Frequently referred to as ctxl, and formerly known as prompt studio, which start
 
 [brief pause] … as it stands there is no doubt that with the right prompts and data inserted into the context, this is repeatable and eminently useful. However, the challenge is getting to the right configuration.
 
-Contextual instead, starting from the practice adjacent to unit testing in software engineering of [[evaluations]] to quantify a score for a given task. Contextual (dog foods) embraces the generative capabilities of (at least at present) transformer based language models to adaptively guide the user from an initial "objective" to craft "measures" and iteratively refine tasks to produce data, outputs.
+[[Contextual]] instead, starting from the practice adjacent to unit testing in software engineering of [[evaluations]] to quantify a score for a given task. Contextual (dog foods) embraces the generative capabilities of (at least at present) transformer based language models to adaptively guide the user from an initial "objective" to craft "measures" and iteratively refine tasks to produce data, outputs.
 
 [Aside]: Evals ([[evaluations|Evaluations]]) of LLM prompted responses, which in an ideal case, allow for exacting scoring (empirically best when the measure is based on classification) when run against a usefully large dataset. And at least so far as my experience goes, very hard to create for non-trivial tasks.
 
