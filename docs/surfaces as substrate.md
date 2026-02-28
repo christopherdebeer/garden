@@ -1,6 +1,6 @@
 # Surfaces as Substrate
 
-*Design principles for composable experiences in agent-sync*
+*Design principles for composable experiences in [[/sync]]*
 
 -----
 
