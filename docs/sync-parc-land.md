@@ -9,7 +9,7 @@ created: 2026-02-28
 aka: /sync agent-sync
 
 
-A offspring of [[playtest]] and [[contextual]] starts from an exploration of tool based agent primitives and ultimately blends the [YATC]] paradigm to bridge the affordances gap.
+A offspring of [[Playtest]] and [[Contextual]] starts from an exploration of tool based agent primitives and ultimately blends the [YATC]] paradigm to bridge the affordances gap.
 
 [[todo]]: this project page needs tending.
 
