@@ -15,6 +15,9 @@ Start anywhere. Follow links. Get lost. That's the point.
 - [[project|projects]]
 
 
+```md < [[recent]]
+```
+
 ```md < [[random]]
 ```
 
