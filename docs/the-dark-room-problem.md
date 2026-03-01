@@ -53,7 +53,7 @@ This is the thing. The player doesn’t know the graph exists. They don’t know
 
 ## 3.
 
-I’ve been building a game testing framework called [[Playtest]]. AI agents play board games against each other via CLI commands, with a TypeScript engine managing state, turn order, and rules validation. A gamemaster agent adjudicates disputes. Player agents wait for their turn, read the game state, and submit actions.
+I’ve been building a game testing framework called [[playtest|Playtest]]. AI agents play board games against each other via CLI commands, with a TypeScript engine managing state, turn order, and rules validation. A gamemaster agent adjudicates disputes. Player agents wait for their turn, read the game state, and submit actions.
 
 The architecture is simple: the engine owns a JSON file, agents interact through `./playtest act`, `./playtest wait`, `./playtest status`. File locks handle concurrency. The CLI is the contract — any process that can shell out is a valid participant. An LLM agent and a bash script are mechanically identical.
 
