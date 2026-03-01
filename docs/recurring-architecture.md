@@ -6,7 +6,7 @@ created: 2026-03-01
 
 [[the-dark-room-problem]] named the convergence: three independently-developed systems — a web game's progressive disclosure, a game testing framework's agent coordination protocol, and a self-modifying component architecture — are the same system at different scales.
 
-[[playtest|Playtest]]'s full technical design makes the evidence overwhelming. The framework is 51,000 lines of TypeScript, 176 composable mechanics, 18 playable games, 6 evolutionary phases — and every structural decision it made, independently, recurs in [[sync-parc-land]], [[Contextual]], [[dygram]], and this [[digital-gardens|garden]] itself.
+[[playtest|Playtest]]'s full technical design makes the evidence overwhelming. The framework is 51,000 lines of TypeScript, 176 composable mechanics, 18 playable games, 6 evolutionary phases — and every structural decision it made, independently, recurs in [[sync.parc.land]], [[Contextual]], [[dygram]], and this [[digital-gardens|garden]] itself.
 
 Here are the principles. They weren't designed. They were discovered — by building the same thing repeatedly and noticing.
 

@@ -31,7 +31,7 @@ This isn't really a game engine pattern. It's a [[recurring-architecture|capabil
 
 When a player believes another's action violated the rules, they file a contest. The game blocks. The gamemaster adjudicates — allow or reject. If rejected, the mechanic's `reverseAction()` hook unwinds the state. A 60-second timeout auto-allows to prevent deadlock.
 
-This is dispute resolution as a first-class primitive. It reappears in [[sync-parc-land]] as action preconditions and version conflicts.
+This is dispute resolution as a first-class primitive. It reappears in [[sync.parc.land]] as action preconditions and version conflicts.
 
 ## Evolutionary history
 
@@ -48,7 +48,7 @@ Phase 4 is the most instructive. Each extraction moved logic from a monolithic c
 
 ## Connection to other projects
 
-Playtest's architecture converges with [[sync-parc-land]] and [[Contextual]]. See [[the-dark-room-problem]] for the full argument: three independently-developed systems are the same system at different scales. See [[recurring-architecture]] for the named principles.
+Playtest's architecture converges with [[sync.parc.land]] and [[Contextual]]. See [[the-dark-room-problem]] for the full argument: three independently-developed systems are the same system at different scales. See [[recurring-architecture]] for the named principles.
 
 The distributed agent CLI proposal in the playtest repo explores extracting the engine into a general multi-agent coordination framework — recognizing that file-based state, blocking waits, hook-based extensibility, and dispute resolution are domain-invariant patterns.
 

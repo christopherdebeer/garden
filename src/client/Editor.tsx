@@ -491,7 +491,7 @@ export function Editor() {
 
     const slug = name
       .toLowerCase()
-      .replace(/[^a-z0-9-]/g, '-')
+      .replace(/[^a-z0-9.-]/g, '-')
       .replace(/-+/g, '-')
       .replace(/^-|-$/g, '')
     const path = `docs/${slug}.md`
